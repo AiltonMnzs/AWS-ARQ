@@ -1,9 +1,18 @@
 project_name = "linuxtips-awsarqcont-vpc"
 region               = "us-east-1"
-vpc_cidr             = "10.0.0.0/16"
-private_subnet_cidrs = ["10.0.1.0/24", "10.0.2.0/24", "10.0.3.0/24"]
-public_subnet_cidrs  = ["10.0.101.0/24", "10.0.102.0/24", "10.0.103.0/24"]
-database_subnet_cidrs = ["10.0.51.0/24", "10.0.52.0/24", "10.0.53.0/24"]
-availability_zones   = ["a", "b", "c"]
-enable_dns_support   = true
-enable_dns_hostnames = true
+
+## SSM VPC ## 
+
+ssm_vpc_id = ""
+sm_public_subnet_1 = ""
+sm_public_subnet_2 = ""
+sm_public_subnet_3 = ""
+
+ssm_private_subnet_1 = ""
+ssm_private_subnet_2 = ""
+ssm_private_subnet_3 = ""
+
+### Load Balancer ###
+
+load_balancer_internal = false
+load_balancer_type "application"
