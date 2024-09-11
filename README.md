@@ -7,7 +7,7 @@
 ![DOC](/dwio/arq-ips.png)
 
 DAY - 1
---- VPC 
+--- VPC ---
 
 
  
