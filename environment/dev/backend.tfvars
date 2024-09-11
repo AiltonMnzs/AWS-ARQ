@@ -1,4 +1,4 @@
 bucket = "awsarq-statefiles"
-key    = "vpc/dev/state"
+key    = "ecs/dev/state"
 region = "us-east-1"
 
